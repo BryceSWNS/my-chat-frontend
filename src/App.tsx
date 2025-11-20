@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ChatBubble from "./components/ChatBubble";
 
-const BACKEND_URL = "https://learning-870201345013.asia-east1.run.app/chat";
+const BACKEND_URL = "https://gemini-backend-870201345013.asia-east1.run.app/chat";
 
 export default function App() {
   const [messages, setMessages] = useState<{ text: string; isUser: boolean }[]>([]);
